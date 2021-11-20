@@ -10,6 +10,7 @@ export function Header({ onOpenNewModal }: HeaderProps) {
     <Container>
       <Content>
         <img src={logo} alt="Rocket Eventos" />
+        <h2>Rocket Events</h2>
         <button type="button" onClick={onOpenNewModal}>
           Incluir
         </button>
